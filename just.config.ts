@@ -110,4 +110,3 @@ task('update-settings', () => {
     console.error('Erreur lors du téléchargement du fichier:', error);
   });
 });
-
