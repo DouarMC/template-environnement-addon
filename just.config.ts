@@ -17,6 +17,7 @@ import {
 } from "@douarmc/core-build-tasks";
 import path from "path";
 import fs from "fs";
+import https from "https";
 
 setupEnvironment(path.resolve(__dirname, ".env")); // Charge les variables d'environnement du fichier .env
 
@@ -88,3 +89,25 @@ task(
 );
 task("createMcaddonFile", mcaddonTask(mcaddonTaskOptions));
 task("mcaddon", series("clean-local", "build", "createMcaddonFile"));
+
+// Tâche pour mettre à jour le fichier settings.json pour les schémas de validation.
+task('update-settings', () => {
+  // URL brute du fichier settings.json sur GitHub
+  const fileUrl = 'https://raw.githubusercontent.com/DouarMC/template-environnement-addon/master/.vscode/settings.json';
+
+  // Chemin local pour enregistrer le fichier téléchargé
+  const outputFilePath = path.join(__dirname, './.vscode/settings.json');
+
+  // Télécharger et enregistrer le fichier
+  https.get(fileUrl, (response) => {
+    const fileStream = fs.createWriteStream(outputFilePath);
+    response.pipe(fileStream);
+
+    fileStream.on('finish', () => {
+      console.log('Le fichier settings.json a été téléchargé avec succès!');
+    });
+  }).on('error', (error) => {
+    console.error('Erreur lors du téléchargement du fichier:', error);
+  });
+});
+

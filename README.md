@@ -26,9 +26,18 @@ tâches, ou encore de valider les fichiers de configuration des addons avec des 
 1. **Télécharger le zip** du projet avec le bouton vert **Code**.
 2. **Extraire le contenu** du zip dans un dossier de votre choix.
 3. **Ouvrir VSCode** et **ouvrir le dossier** du projet.
+4. **Ouvrir le terminal** dans VSCode et exécuter la commande suivante:
+
+```bash
+npm install
+```
 
 ## Configuration des schémas JSON
 
 Les schémas JSON permettent de valider les fichiers de configuration des addons. Dans le fichier `settings.json` situé dans le dossier `.vscode`, il y a une section
-lié à la configuration des schémas JSON. Ce fichier sera souvent mis à jour sur ce repository pour ajouter de nouveaux schémas ou en modifier,
-donc pensez à retélécharger le fichier `settings.json` régulièrement.
+lié à la configuration des schémas JSON. Ce fichier sera souvent mis à jour sur ce repository pour ajouter de nouveaux schémas ou en modifier pour mettre à jour le fichier
+`settings.json`, utilisez la commande suivante dans le terminal:
+
+```bash
+npm run update-settings
+```
