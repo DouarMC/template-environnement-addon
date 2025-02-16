@@ -30,7 +30,7 @@
         {"fileMatch": ["resource_packs/*/animation_controllers/*.animation_controllers.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_animation_controllers.animation_controllers.json.schema.json"},
         {"fileMatch": ["resource_packs/*/attachables/*.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_attachable.json.schema.json"},
         {"fileMatch": ["resource_packs/*/block_culling/*.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_block_culling_cull.json.schema.json"},
-        {"fileMatch": ["resource_packs/*/biomes/*.client_biome.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_client_biome.client_biome.schema.json"},
+        {"fileMatch": ["resource_packs/*/biomes/*.client_biome.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_client_biome.client_biome.json.schema.json"},
         {"fileMatch": ["resource_packs/*/entity/*.entity.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_entity.entity.json.schema.json"},
         {"fileMatch": ["resource_packs/*/fogs/*_fog_settings.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_fog_settings.json.schema.json"},
         {"fileMatch": ["resource_packs/*/ui/_global_variables.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-_global_variables.json.schema.json"},
