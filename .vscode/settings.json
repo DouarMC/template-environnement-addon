@@ -59,7 +59,7 @@
         {"fileMatch": ["resource_packs/*/sounds/sound_definitions.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-sound_definitions.json.schema.json"},
         {"fileMatch": ["resource_packs/*/sounds.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-sounds.json.schema.json"},
         {"fileMatch": ["resource_packs/*/splashes.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-splashes.json.schema.json"},
-        {"fileMatch": ["resource_packs/*/textures/terrain_textures.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-terrain_texture.json.schema.json"},
+        {"fileMatch": ["resource_packs/*/textures/terrain_texture.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-terrain_texture.json.schema.json"},
         {"fileMatch": ["resource_packs/*/textures/textures_list.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-textures_list.json.schema.json"},
         {"fileMatch": ["resource_packs/*/water/water.json"], "url": "https://douarmc.github.io/minecraft-bedrock-json-schemas/resource_pack/RP-water.json.schema.json"}
     ]
