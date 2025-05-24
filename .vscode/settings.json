@@ -206,7 +206,7 @@
         },
         {
             "fileMatch": [
-                "resource_pack/*/models/entity/**/*/.json",
+                "resource_pack/*/models/entity/**/*.json",
                 "resource_pack/*/models/blocks/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/RP-_model.geo.json.schema.json"
@@ -215,7 +215,7 @@
             "fileMatch": [
                 "resource_pack/*/particles/**/*.json"
             ],
-            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/RP-_particle.json.schema.json"
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/RP-_particle_effect.json.schema.json"
         },
         {
             "fileMatch": [

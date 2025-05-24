@@ -27,7 +27,6 @@ function addContentsToZip(zipContents: ZipContent[], zip: zip_lib.Zip) {
     for (const content of zipContents) {
 
         for (const originPath of content.contents) {
-            console.log("AAAAaaaaaaaaaaaaAAAAAAAAA", originPath)
             if (!originPath) {
                 continue;
             }
@@ -82,13 +81,13 @@ export function zipTask(outputFile: string, zipContents: ZipContent[]): ReturnTy
 
 export function mcaddonTask(params: ZipTaskParameters): just_scripts.TaskFunction {
     const projectType = getOrThrowFromProcess('PROJECT_TYPE');
+    const projectName = getOrThrowFromProcess('PROJECT_NAME'); // Obtenir le nom du projet à partir des variables d'environnement
 
     switch (projectType) {
         case "addon": {
             const targetFolder = path.parse(params.outputFile).dir;
-            const outputFileName = path.parse(params.outputFile).base;
-            const behaviorPackFile = path.join(targetFolder, `${outputFileName}_bp.mcpack`);
-            const resourcePackFile = path.join(targetFolder, `${outputFileName}_rp.mcpack`);
+            const behaviorPackFile = path.join(targetFolder, `${projectName}_bp.mcpack`);
+            const resourcePackFile = path.join(targetFolder, `${projectName}_rp.mcpack`);
         
             const mcaddonContents: { contents: string[] } = {contents: []};
         
@@ -111,8 +110,7 @@ export function mcaddonTask(params: ZipTaskParameters): just_scripts.TaskFunctio
         }
         case "skin_pack": {
             const targetFolder = path.parse(params.outputFile).dir;
-            const outputFileName = path.parse(params.outputFile).base;
-            const skinPackFile = path.join(targetFolder, `${outputFileName}.mcpack`);
+            const skinPackFile = path.join(targetFolder, `${projectName}.mcpack`);
             just_scripts.task("packSP", zipTask(skinPackFile, [
                 { contents: [params.skin_pack?.copyToSkinPacks] }
             ]))
@@ -120,8 +118,7 @@ export function mcaddonTask(params: ZipTaskParameters): just_scripts.TaskFunctio
         }
         case "world_template": {
             const targetFolder = path.parse(params.outputFile).dir;
-            const outputFileName = path.parse(params.outputFile).base;
-            const worldTemplateFile = path.join(targetFolder, `${outputFileName}.mctemplate`);
+            const worldTemplateFile = path.join(targetFolder, `${projectName}.mctemplate`);
             just_scripts.task("packWT", zipTask(worldTemplateFile, [
                 { contents: [params.world_template?.copyToWorldTemplates] }
             ]))

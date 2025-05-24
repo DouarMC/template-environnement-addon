@@ -86,7 +86,10 @@ switch (projectType) {
                 [
                     "addon/scripts/**/*.ts",
                     "addon/behavior_pack/**/*.{json,png,lang,mcfunction,mcstructure,nbt}",
-                    "addon/resource_pack/**/*.{json,png,lang,material,fsb,ogg,wav,jpeg,jpg,tga}"
+                    "addon/resource_pack/**/*.{json,png,lang,material,fsb,ogg,wav,jpeg,jpg,tga}",
+                    "!(addon/behavior_pack/*/contents.json)",
+                    "!(addon/resource_pack/*/contents.json)",
+                    "!(addon/resource_pack/*/textures/textures_list.json)"
                 ],
                 series("clean-local", "typescript", "package")
             )
