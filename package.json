@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "test": "just-scripts test",
     "local-deploy": "just-scripts local-deploy",
     "mcaddon": "just-scripts mcaddon",
     "update-settings": "just-scripts update-settings",
