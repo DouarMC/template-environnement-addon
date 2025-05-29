@@ -12,7 +12,7 @@ const MINECRAFT_STABLE_CLEAN_PATHS: Record<string, string[]> = {
         'LOCALAPPDATA/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/PROJECT_NAME'
     ],
     skin_pack: [
-        'LOCALAPPDATA/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_skin_packs/PROJECT_NAME'
+        'LOCALAPPDATA/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/skin_packs/PROJECT_NAME'
     ],
     world_template: [
         'LOCALAPPDATA/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/world_templates/PROJECT_NAME'
@@ -28,7 +28,7 @@ const MINECRAFT_PREVIEW_CLEAN_PATHS: Record<string, string[]> = {
         'LOCALAPPDATA/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/development_resource_packs/PROJECT_NAME'
     ],
     skin_pack: [
-        'LOCALAPPDATA/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/development_skin_packs/PROJECT_NAME'
+        'LOCALAPPDATA/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/skin_packs/PROJECT_NAME'
     ],
     world_template: [
         'LOCALAPPDATA/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/world_templates/PROJECT_NAME'

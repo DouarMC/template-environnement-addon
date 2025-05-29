@@ -27,7 +27,7 @@ const MINECRAFT_STABLE_DEPLOY_PATHS: MinecraftDeployPaths = {
         ]
     },
     skin_pack: [
-        `${LOCALAPPDATA}/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_skin_packs`
+        `${LOCALAPPDATA}/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/skin_packs`
     ],
     world_template: [
         `${LOCALAPPDATA}/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/world_templates`
@@ -47,7 +47,7 @@ const MINECRAFT_PREVIEW_DEPLOY_PATHS: MinecraftDeployPaths = {
         ]
     },
     skin_pack: [
-        `${LOCALAPPDATA}/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/development_skin_packs`
+        `${LOCALAPPDATA}/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/skin_packs`
     ],
     world_template: [
         `${LOCALAPPDATA}/Packages/Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe/LocalState/games/com.mojang/world_templates`
