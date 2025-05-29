@@ -454,6 +454,24 @@
                 "resource_pack/*/subpacks/*/font/font_metadata.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/font/font_metadata.json"
+        },
+        {
+            "fileMatch": [
+                "skin_pack/*/contents.json"
+            ],
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/skin_pack/contents.json"
+        },
+        {
+            "fileMatch": [
+                "skin_pack/*/manifest.json"
+            ],
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/skin_pack/manifest.json"
+        },
+        {
+            "fileMatch": [
+                "skin_pack/*/skins.json"
+            ],
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/skin_pack/skins.json"
         }
     ],
     "files.associations": {
