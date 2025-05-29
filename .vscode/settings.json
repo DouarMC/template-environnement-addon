@@ -447,6 +447,13 @@
                 "resource_pack/*/subpacks/*/font/emoticons.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/font/emoticons.json"
+        },
+        {
+            "fileMatch": [
+                "resource_pack/*/font/font_metadata.json",
+                "resource_pack/*/subpacks/*/font/font_metadata.json"
+            ],
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/font/font_metadata.json"
         }
     ],
     "files.associations": {
