@@ -118,8 +118,9 @@ switch (projectType) {
                 copyToSkinPacks: path.join(__dirname, `./skin_pack/${projectName}`)
             }
         };
+        task("create-contents-file", createContentsFileTask([skinPackPath]));
         task("copyArtifacts", copyTask(copyTaskOptions));
-        task("package", series("clean-collateral", "copyArtifacts"));
+        task("package", series("clean-collateral", "create-contents-file", "copyArtifacts"));
         task(
             "local-deploy",
             watchTask(
@@ -134,7 +135,7 @@ switch (projectType) {
             outputFile: `./skin_pack/dist/packages/${projectName}`
         };
         task("createMcaddonFile", mcaddonTask(mcaddonTaskOptions));
-        task("mcaddon", series("clean-local", "createMcaddonFile"));
+        task("mcaddon", series("clean-local", "create-contents-file", "createMcaddonFile"));
         break;
     case 'world_template' :
         if (fs.existsSync("world_template") === false) {
@@ -156,8 +157,9 @@ switch (projectType) {
                 copyToWorldTemplates: path.join(__dirname, `./world_template/${projectName}`)
             }
         };
+        task("create-contents-file", createContentsFileTask([worldTemplatePath]));
         task("copyArtifacts", copyTask(copyTaskOptions));
-        task("package", series("clean-collateral", "copyArtifacts"));
+        task("package", series("clean-collateral", "create-contents-file", "copyArtifacts"));
         task(
             "local-deploy",
             watchTask(
@@ -172,7 +174,7 @@ switch (projectType) {
             outputFile: `./world_template/dist/packages/${projectName}`
         };
         task("createMcaddonFile", mcaddonTask(mcaddonTaskOptions));
-        task("mcaddon", series("clean-local", "createMcaddonFile"));
+        task("mcaddon", series("clean-local", "create-contents-file", "createMcaddonFile"));
         break;
     default : 
         throw new Error(`Unknown project type: ${projectType}. Must be one of 'addon', 'skin_pack', or 'world_template'.`);
