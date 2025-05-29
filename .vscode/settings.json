@@ -23,362 +23,421 @@
         },
         {
             "fileMatch": [
-                "behavior_pack/*/animations/*.animation.json"
+                "behavior_pack/*/animations/*.animation.json",
+                "behavior_pack/*/subpacks/*/animations/*.animation.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/animations/_animation.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/biomes/*.biome.json"
+                "behavior_pack/*/biomes/*.biome.json",
+                "behavior_pack/*/subpacks/*/biomes/*.biome.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/biomes/_biome.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/blocks/**/*.json"
+                "behavior_pack/*/blocks/**/*.json",
+                "behavior_pack/*/subpacks/*/blocks/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/blocks/_block.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/cameras/presets/*.json"
+                "behavior_pack/*/cameras/presets/*.json",
+                "behavior_pack/*/subpacks/*/cameras/presets/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/cameras/presets/_preset.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/dialogue/*.json"
+                "behavior_pack/*/dialogue/*.json",
+                "behavior_pack/*/subpacks/*/dialogue/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/dialogue/_dialogue.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/dimensions/*.json"
+                "behavior_pack/*/dimensions/*.json",
+                "behavior_pack/*/subpacks/*/dimensions/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/dimensions/_dimension.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/entities/**/*.json"
+                "behavior_pack/*/entities/**/*.json",
+                "behavior_pack/*/subpacks/*/entities/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/entities/_entity.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/features/**/*.json"
+                "behavior_pack/*/features/**/*.json",
+                "behavior_pack/*/subpacks/*/features/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/features/_feature.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/feature_rules/**/*.json"
+                "behavior_pack/*/feature_rules/**/*.json",
+                "behavior_pack/*/subpacks/*/feature_rules/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/feature_rules/_feature_rule.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/items/**/*.json"
+                "behavior_pack/*/items/**/*.json",
+                "behavior_pack/*/subpacks/*/items/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/items/_item.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/worldgen/jigsaw_structures/*.json"
+                "behavior_pack/*/worldgen/jigsaw_structures/*.json",
+                "behavior_pack/*/subpacks/*/worldgen/jigsaw_structures/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/jigsaw_structures/_jigsaw_structure.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/loot_tables/**/*.json"
+                "behavior_pack/*/loot_tables/**/*.json",
+                "behavior_pack/*/subpacks/*/loot_tables/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/loot_tables/_loot_table.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/worldgen/processors/*.json"
+                "behavior_pack/*/worldgen/processors/*.json",
+                "behavior_pack/*/subpacks/*/worldgen/processors/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/processors/_processor.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/recipes/**/*.json"
+                "behavior_pack/*/recipes/**/*.json",
+                "behavior_pack/*/subpacks/*/recipes/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/recipes/_recipe.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/spawn_rules/**/*.json"
+                "behavior_pack/*/spawn_rules/**/*.json",
+                "behavior_pack/*/subpacks/*/spawn_rules/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/spawn_rules/_spawn_rule.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/worldgen/structure_sets/*.json"
+                "behavior_pack/*/worldgen/structure_sets/*.json",
+                "behavior_pack/*/subpacks/*/worldgen/structure_sets/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/structure_sets/_structure_set.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/worldgen/template_pools/*.json"
+                "behavior_pack/*/worldgen/template_pools/*.json",
+                "behavior_pack/*/subpacks/*/worldgen/template_pools/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/template_pools/_template_pool.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/trading/**/*.json"
+                "behavior_pack/*/trading/**/*.json",
+                "behavior_pack/*/subpacks/*/trading/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/trading/_trading.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/contents.json"
+                "behavior_pack/*/contents.json",
+                "behavior_pack/*/subpacks/*/contents.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/contents.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/item_catalog/crafting_item_catalog.json"
+                "behavior_pack/*/item_catalog/crafting_item_catalog.json",
+                "behavior_pack/*/subpacks/*/item_catalog/crafting_item_catalog.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/item_catalog/crafting_item_catalog.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/texts/languages.json"
+                "behavior_pack/*/texts/languages.json",
+                "behavior_pack/*/subpacks/*/texts/languages.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/texts/languages.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/manifest.json"
+                "behavior_pack/*/manifest.json",
+                "behavior_pack/*/subpacks/*/manifest.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/manifest.json"
         },
         {
             "fileMatch": [
-                "behavior_pack/*/functions/tick.json"
+                "behavior_pack/*/functions/tick.json",
+                "behavior_pack/*/subpacks/*/functions/tick.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/behavior_pack/functions/tick.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/animations/*.animation.json"
+                "resource_pack/*/animations/*.animation.json",
+                "resource_pack/*/subpacks/*/animations/*.animation.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/animations/_animation.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/animation_controllers/*.animation_controllers.json"
+                "resource_pack/*/animation_controllers/*.animation_controllers.json",
+                "resource_pack/*/subpacks/*/animation_controllers/*.animation_controllers.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/animation_controllers/_animation_controllers.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/attachables/**/*.json"
+                "resource_pack/*/attachables/**/*.json",
+                "resource_pack/*/subpacks/*/attachables/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/attachables/_attachable.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/block_culling/*.json"
+                "resource_pack/*/block_culling/*.json",
+            "resource_pack/*/subpacks/*/block_culling/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/block_culling/_block_culling.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/biomes/*.client_biome.json"
+                "resource_pack/*/biomes/*.client_biome.json",
+                "resource_pack/*/subpacks/*/biomes/*.client_biome.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/biomes/_biome.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/entity/**/*.entity.json"
+                "resource_pack/*/entity/**/*.entity.json",
+                "resource_pack/*/subpacks/*/entity/**/*.entity.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/entity/_entity.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/fogs/*.json"
+                "resource_pack/*/fogs/*.json",
+                "resource_pack/*/subpacks/*/fogs/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/fogs/_fog.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/ui/_global_variables.json"
+                "resource_pack/*/ui/_global_variables.json",
+                "resource_pack/*/subpacks/*/ui/_global_variables.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/ui/_global_variables.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/models/entity/**/*.json",
-                "resource_pack/*/models/blocks/**/*.json"
+                "resource_pack/*/models/**/*.json",
+                "resource_pack/*/subpacks/*/models/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/models/_model.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/particles/**/*.json"
+                "resource_pack/*/particles/**/*.json",
+                "resource_pack/*/subpacks/*/particles/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/particles/_particle.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/render_controllers/**/*.render_controllers.json"
+                "resource_pack/*/render_controllers/**/*.render_controllers.json",
+                "resource_pack/*/subpacks/*/render_controllers/**/*.render_controllers.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/render_controllers/_render_controllers.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/textures/**/*.texture_set.json"
+                "resource_pack/*/textures/**/*.texture_set.json",
+                "resource_pack/*/subpacks/*/textures/**/*.texture_set.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/textures/_texture_set.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/ui/_ui_defs.json"
+                "resource_pack/*/ui/_ui_defs.json",
+                "resource_pack/*/subpacks/*/ui/_ui_defs.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/ui/_ui_defs.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/ui/**/*.json"
+                "resource_pack/*/ui/**/*.json",
+                "resource_pack/*/subpacks/*/ui/**/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/ui/_ui_element.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/atmospherics/*.json"
+                "resource_pack/*/atmospherics/*.json",
+                "resource_pack/*/subpacks/*/atmospherics/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/atmospherics/_atmospheric.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/biomes_client.json"
+                "resource_pack/*/biomes_client.json",
+                "resource_pack/*/subpacks/*/biomes_client.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/biomes_client.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/blocks.json"
+                "resource_pack/*/blocks.json",
+                "resource_pack/*/subpacks/*/blocks.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/blocks.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/color_grading/*.json"
+                "resource_pack/*/color_grading/*.json",
+                "resource_pack/*/subpacks/*/color_grading/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/color_grading/_color_grading.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/contents.json"
+                "resource_pack/*/contents.json",
+                "resource_pack/*/subpacks/*/contents.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/contents.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/credits/credits.json"
+                "resource_pack/*/credits/credits.json",
+                "resource_pack/*/subpacks/*/credits/credits.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/credits/credits.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/textures/flipbook_textures.json"
+                "resource_pack/*/textures/flipbook_textures.json",
+                "resource_pack/*/subpacks/*/textures/flipbook_textures.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/textures/flipbook_textures.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/textures/item_texture.json"
+                "resource_pack/*/textures/item_texture.json",
+                "resource_pack/*/subpacks/*/textures/item_texture.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/textures/item_texture.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/texts/languages.json"
+                "resource_pack/*/texts/languages.json",
+                "resource_pack/*/subpacks/*/texts/languages.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/texts/languages.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/texts/language_names.json"
+                "resource_pack/*/texts/language_names.json",
+                "resource_pack/*/subpacks/*/texts/language_names.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/texts/language_names.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/lighting/*.json"
+                "resource_pack/*/lighting/*.json",
+                "resource_pack/*/subpacks/*/lighting/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/lighting/_lighting.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/loading_messages.json"
+                "resource_pack/*/loading_messages.json",
+                "resource_pack/*/subpacks/*/loading_messages.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/loading_messages.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/manifest.json"
+                "resource_pack/*/manifest.json",
+                "resource_pack/*/subpacks/*/manifest.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/manifest.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/sounds/music_definitions.json"
+                "resource_pack/*/sounds/music_definitions.json",
+                "resource_pack/*/subpacks/*/sounds/music_definitions.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/sounds/music_definitions.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/pbr/global.json"
+                "resource_pack/*/pbr/global.json",
+                "resource_pack/*/subpacks/*/pbr/global.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/pbr/global.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/point_lights/global.json"
+                "resource_pack/*/point_lights/global.json",
+                "resource_pack/*/subpacks/*/point_lights/global.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/point_lights/global.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/sounds/sound_definitions.json"
+                "resource_pack/*/sounds/sound_definitions.json",
+                "resource_pack/*/subpacks/*/sounds/sound_definitions.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/sounds/sound_definitions.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/sounds.json"
+                "resource_pack/*/sounds.json",
+                "resource_pack/*/subpacks/*/sounds.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/sounds.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/splashes.json"
+                "resource_pack/*/splashes.json",
+                "resource_pack/*/subpacks/*/splashes.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/splashes.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/textures/terrain_texture.json"
+                "resource_pack/*/textures/terrain_texture.json",
+                "resource_pack/*/subpacks/*/textures/terrain_texture.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/textures/terrain_texture.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/textures/textures_list.json"
+                "resource_pack/*/textures/textures_list.json",
+                "resource_pack/*/subpacks/*/textures/textures_list.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/textures/textures_list.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/water/*.json"
+                "resource_pack/*/water/*.json",
+                "resource_pack/*/subpacks/*/water/*.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/water/_water.json"
         },
         {
             "fileMatch": [
-                "resource_pack/*/shadows/global.json"
+                "resource_pack/*/shadows/global.json",
+                "resource_pack/*/subpacks/*/shadows/global.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/shadows/global.json"
         }
