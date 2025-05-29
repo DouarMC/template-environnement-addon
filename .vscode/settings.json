@@ -440,6 +440,13 @@
                 "resource_pack/*/subpacks/*/shadows/global.json"
             ],
             "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/shadows/global.json"
+        },
+        {
+            "fileMatch": [
+                "resource_pack/*/font/emoticons.json",
+                "resource_pack/*/subpacks/*/font/emoticons.json"
+            ],
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/font/emoticons.json"
         }
     ],
     "files.associations": {
