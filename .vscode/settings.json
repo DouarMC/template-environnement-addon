@@ -282,10 +282,10 @@
         },
         {
             "fileMatch": [
-                "resource_pack/*/atmospherics/*.json",
-                "resource_pack/*/subpacks/*/atmospherics/*.json"
+                "resource_pack/*/atmospherics/atmospherics.json",
+                "resource_pack/*/subpacks/*/atmospherics/atmospherics.json"
             ],
-            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/atmospherics/_atmospheric.json"
+            "url": "https://douarmc.github.io/minecraft_bedrock_json_schemas/resource_pack/atmospherics/atmospherics.json"
         },
         {
             "fileMatch": [
