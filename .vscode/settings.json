@@ -475,6 +475,7 @@
         }
     ],
     "files.associations": {
-        "*.json": "jsonc"
+        "*.json": "jsonc",
+        "*.material": "jsonc"
     }
 }
