@@ -35,18 +35,18 @@ switch (projectType) {
         let hasResourcePack = false;
         if (fs.existsSync("addon/behavior_pack")) {
             hasBehaviorPack = true;
+            addonPacksPath.push(`addon/behavior_pack/${projectName}`);
         }
         if (fs.existsSync("addon/resource_pack")) {
             hasResourcePack = true;
+            addonPacksPath.push(`addon/resource_pack/${projectName}`);
         }
         if (hasBehaviorPack === true && fs.existsSync(`addon/behavior_pack/${projectName}`) === false) {
             throw new Error(`There is no behavior pack folder in the 'behavior_pack' directory. Please create a behavior pack folder and try again.`);
         }
-        addonPacksPath.push(`addon/behavior_pack/${projectName}`);
         if (hasResourcePack === true && fs.existsSync(`addon/resource_pack/${projectName}`) === false) {
             throw new Error(`There is no resource pack folder in the 'resource_pack' directory. Please create a resource pack folder and try again.`);
         }
-        addonPacksPath.push(`addon/resource_pack/${projectName}`);
         if (hasBehaviorPack === true && fs.existsSync(`addon/behavior_pack/${projectName}/manifest.json`) === false) {
             throw new Error(`Manifest file does not exist. Please create a manifest file and try again.`);
         }
